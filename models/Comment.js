@@ -6,7 +6,7 @@ var CommentSchema = new Schema({
         type: String
     },
     body:{
-        type:String
+        type: String
     }
 });
 

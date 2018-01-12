@@ -3,12 +3,12 @@
 var mongoose = require("mongoose");
 
 //this is a schema object from mongoose
-var Schema=mongoose.Schema;
+var Schema = mongoose.Schema;
 
 //create article schema
 var ArticleSchema = new Schema({
     title:{
-        type:String,
+        type: String,
         required: true
     },
     link:{
